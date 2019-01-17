@@ -1,0 +1,10 @@
+.image-rounded {
+  border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+.centered-and-cropped {
+  object-fit: cover;
+}
+.heading-subtitle {
+  padding: 0 1rem;
+  font-size: 1.125rem;
+}

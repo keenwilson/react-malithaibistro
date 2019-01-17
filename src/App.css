@@ -1,3 +1,27 @@
+body {
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #333;
+}
+
+.heading-title {
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #333;
+  font-size: 2.75rem;
+  line-height: 1.07;
+  letter-spacing: -0.5px;
+}
+
+.image-rounded {
+  border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+.centered-and-cropped {
+  object-fit: cover;
+}
+.heading-subtitle {
+  padding: 0 1rem;
+  font-size: 1.125rem;
+}
+
 .App {
   text-align: center;
 }
