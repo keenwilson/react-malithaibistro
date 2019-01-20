@@ -5,11 +5,12 @@ import NavBar from "./components/NavBar";
 import About from "./components/About/index";
 import NotFound from "./components/notFound";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact/index";
 
 class App extends Component {
   render() {
     return (
-      <section class="hero is-fullheight">
+      <section class="hero-is-fullheight">
         <div class="hero-head">
           <NavBar />
         </div>
@@ -17,6 +18,7 @@ class App extends Component {
         <div class="hero-body">
           <Switch>
             <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
             <Route path="/not-found" component={NotFound} />
             <Redirect from="/" exact to="/about" />
             <Redirect to="/not-found" />

@@ -1,0 +1,16 @@
+.text-footer,
+a.text-footer {
+  color: hsl(0, 0%, 98%);
+}
+
+a.text-footer:hover {
+  color: #b24f83;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.footer {
+  padding: 3rem 1.5rem 3rem;
+}

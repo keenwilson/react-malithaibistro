@@ -3,6 +3,22 @@ body {
   color: #333;
 }
 
+.hero-is-fullheight {
+  min-height: 100vh;
+}
+.hero-head {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.hero-body {
+  align-items: center;
+  display: flex;
+}
+.hero-foot {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
 .heading-title {
   font-family: "Work Sans", Arial, sans-serif;
   color: #333;
@@ -10,16 +26,16 @@ body {
   line-height: 1.07;
   letter-spacing: -0.5px;
 }
+.heading-subtitle {
+  padding: 0 1rem;
+  font-size: 1.75rem;
+}
 
 .image-rounded {
   border-radius: 0.4em 0.4em 0.4em 0.4em;
 }
 .centered-and-cropped {
   object-fit: cover;
-}
-.heading-subtitle {
-  padding: 0 1rem;
-  font-size: 1.125rem;
 }
 
 .App {
@@ -53,4 +69,8 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.text-center {
+  text-align: center !important;
 }
