@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact/index";
 import Header from "./components/Header";
 import Home from "./components/Home/index";
+import Menu from "./components/Menu/index";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <div class="hero-body">
           <Switch>
             <Route path="/home" component={Home} />
+            <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/not-found" component={NotFound} />
