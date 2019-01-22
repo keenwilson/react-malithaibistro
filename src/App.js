@@ -13,13 +13,13 @@ import Menu from "./components/Menu/index";
 class App extends Component {
   render() {
     return (
-      <section class="hero-is-fullheight">
-        <div class="hero-head">
+      <section className="hero-is-fullheight">
+        <div className="hero-head">
           <Header />
           <SubHeader />
         </div>
 
-        <div class="hero-body">
+        <div className="hero-body">
           <Switch>
             <Route path="/home" component={Home} />
             <Route path="/menu" component={Menu} />
@@ -30,7 +30,7 @@ class App extends Component {
             <Redirect to="/not-found" />
           </Switch>
         </div>
-        <div class="hero-foot">
+        <div className="hero-foot">
           <Footer />
         </div>
       </section>

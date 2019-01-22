@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link } from "react-router-dom";
+import { Redirect, Route, Link } from "react-router-dom";
 import Drinks from "./drinks";
 import Appetizers from "./appetizers";
 import HouseFavorites from "./houseFavorites";
@@ -10,13 +10,17 @@ import Noodles from "./noodles";
 import Curries from "./curries";
 import Desserts from "./desserts";
 import "./style.css";
+import MenuHome from "./menuHome";
 
 const Menu = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h1 className="heading-title text-center">Menu</h1>
+          <Link to="/menu/home" className="menu-title__link">
+            <h1 className="heading-title text-center">Menu</h1>
+          </Link>
+
           <h2 className="heading-subtitle text-center">
             Mali Thai Bistro in Lee's Summit, MO
           </h2>
@@ -75,6 +79,7 @@ const Menu = () => {
         </div>
       </div>
       <div className="row">
+        <Route path={"/menu/home"} component={MenuHome} />
         <Route path={"/menu/drinks"} component={Drinks} />
         <Route path={"/menu/appetizers"} component={Appetizers} />
         <Route path={"/menu/housefavorites"} component={HouseFavorites} />
@@ -87,6 +92,8 @@ const Menu = () => {
         <Route path={"/menu/noodles"} component={Noodles} />
         <Route path={"/menu/curries"} component={Curries} />
         <Route path={"/menu/desserts"} component={Desserts} />
+        <Redirect from="/menu/" exact to="/menu/home" />
+        <Redirect to="/menu/home" />
       </div>
     </div>
   );

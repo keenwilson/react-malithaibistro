@@ -3,11 +3,11 @@ import "./style.css";
 
 const Contact = () => {
   return (
-    <div className="container mt-5">
+    <div className="container">
       <div className="row">
         <div className="col-md-12">
           <h1 className="heading-title text-center">Contact & Hours</h1>
-          <h2 className="heading-subtitle text-center px-3 mb-5">
+          <h2 className="heading-subtitle text-center">
             Mali Thai Bistro in Lee's Summit, MO
           </h2>
         </div>

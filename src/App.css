@@ -32,6 +32,26 @@ body {
   font-size: 1.75rem;
 }
 
+.image-128x128 {
+  width: 128px;
+  height: 128px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .image-128x128 {
+    width: 64px;
+    height: 64px;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
 .image-75 {
   width: 75%;
   height: auto;
@@ -99,6 +119,20 @@ body {
   font-size: 1.25rem;
 }
 
+@media screen and (max-width: 992px) {
+  .nav-collapese_mobile {
+    background-color: #faf8f6;
+  }
+  .nav-item__mobile {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    background-color: #faf8f6;
+    border-top: 1px solid #666;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 .p-article {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
@@ -124,6 +158,10 @@ body {
 .restaurant-wrapper {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.paral-wrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 @media screen and (min-width: 992px) {
   .restaurant-title {

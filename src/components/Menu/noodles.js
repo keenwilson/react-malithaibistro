@@ -8,12 +8,12 @@ const Noodles = () => {
         <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">31. Pad Sew Eaew</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried flat noodles in dark, rich and sweet soy sauce with
@@ -31,12 +31,12 @@ const Noodles = () => {
 
           <h2 className="menu-item__title">32. Pad Key Maw</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
 
           <p className="menu-item__description">
@@ -48,12 +48,12 @@ const Noodles = () => {
           <h2 className="menu-item__title">33. Pad Woon Sen</h2>
 
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried glass noodle with meats or tofu, bean sprouts, spring

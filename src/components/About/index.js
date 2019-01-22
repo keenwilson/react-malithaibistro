@@ -3,18 +3,18 @@ import "./style.css";
 
 const About = () => {
   return (
-    <div className="container mt-5">
+    <div className="container">
       <div className="row">
         <div className="col-md-12">
           <h1 className="heading-title text-center">Our Story</h1>
-          <h2 className="heading-subtitle text-center px-3 mb-5">
+          <h2 className="heading-subtitle text-center">
             Mali Thai Bistro in Lee's Summit, MO
           </h2>
         </div>
       </div>
       <div className="row">
         <div className="col-md-6">
-          <p className="p-article pl-5">
+          <p className="p-article">
             Mali Thai Bistro is family-owned. Chef Nutnisa,pronounced
             "Nut-Neesa", Hoffman is from northeast Thailand. She grew up in a
             family where cooking was a passion. Her brothers and sisters all
@@ -23,20 +23,6 @@ const About = () => {
             led each of Chef Nutnisa's older sisters to open restaurants in
             Thailand, one in Bangkok and one on the island Koh Samui.
           </p>
-        </div>
-        <div className="col-md-6">
-          <p className="p-article pr-5">
-            Dream of owning her own restaurant came true in June 2015 when Doug
-            and Nutnisa Hoffman opened the Mali Thai Bistro, located right off
-            Highway 291 North, just north of Lee's Summit HighSchool. Mali Thai
-            Bistro was named in honor of Chef Nutnisa’s mother, with Mali being
-            the name of a jasmine flower that she loved.
-          </p>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
           <div className="card-content mb-5">
             <img
               className="card-image image-250  image-rounded centered-and-cropped"
@@ -49,8 +35,14 @@ const About = () => {
             </p>
           </div>
         </div>
-
         <div className="col-md-6">
+          <p className="p-article">
+            Dream of owning her own restaurant came true in June 2015 when Doug
+            and Nutnisa Hoffman opened the Mali Thai Bistro, located right off
+            Highway 291 North, just north of Lee's Summit HighSchool. Mali Thai
+            Bistro was named in honor of Chef Nutnisa’s mother, with Mali being
+            the name of a jasmine flower that she loved.
+          </p>
           <div className="card-content mb-5">
             <img
               className="card-image image-250 image-rounded centered-and-cropped"

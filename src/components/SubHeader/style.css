@@ -23,6 +23,15 @@
   padding-right: 0px;
 }
 
+@media screen and (max-width: 992px) {
+  .sub-header {
+    height: 62px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
 .sub-header__text {
   color: hsl(0, 0%, 98%);
   cursor: pointer;
