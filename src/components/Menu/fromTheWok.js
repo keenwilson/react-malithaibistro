@@ -7,35 +7,35 @@ const FromTheWok = () => {
         <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">14. Thai Cashew Nuts</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Meat or TOFU stir-fried with chili oil and roasted cashew nuts,
             onion, broccoli, fresh carrot and bell peppers.
           </p>
 
-          <figure class="image">
+          <figure className="image">
             <img
-              class="image-75 image-rounded centered-and-cropped"
+              className="image-75 image-rounded centered-and-cropped"
               src="/images/img-food-thai-cashew-nuts-chicken.jpg"
               alt="Mali Thai Bistro - Thai Cashew Nuts Chicken"
             />
           </figure>
-          <p className="menu-item__caption">Thai Cashew Nuts Chicken</p>
+          <p className="menu-item__caption">Thai Cashew Nuts with Chicken</p>
 
           <h2 className="menu-item__title">15. Garlic and Pepper</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             A delicious stir-fried with garlic and ground black pepper,
@@ -44,12 +44,12 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">16. Vegetable Fried Rice</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried rice with egg, and mixed vegetables.
@@ -57,12 +57,12 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">17. Thai Fried Rice</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried rice with egg, onion, spring onions and your choice of
@@ -71,12 +71,12 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">18. Basil Fried Rice</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried rice with egg, onion, spring onions, basil and your
@@ -85,21 +85,21 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">19. Crab Fried Rice</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $13.95 |{" "}
-            <span class="dinner">Dinner</span>
+            <span className="lunch">Lunch</span> $13.95 |{" "}
+            <span className="dinner">Dinner</span>
             $15.95
           </p>
           <p className="menu-item__description">
             Stir-fried rice with crab meat, egg, onion and spring onions.{" "}
           </p>
 
-          <figure class="image">
+          <figure className="image">
             <img
-              class="image-75 image-rounded centered-and-cropped"
+              className="image-75 image-rounded centered-and-cropped"
               src="/images/img-food-crab-fried-rice.jpg"
               alt="Mali Thai Bistro - Crab Fried Rice"
             />
@@ -107,12 +107,12 @@ const FromTheWok = () => {
           <p className="menu-item__caption">Crab Fried Rice</p>
           <h2 className="menu-item__title">20. Yellow Curry Fried Rice</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Traditional fried rice with onions, cabbage, napa and scallions and
@@ -122,8 +122,8 @@ const FromTheWok = () => {
         <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">21. Pineapple Fried Rice</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $12.95 (Seafood $13.95) |{" "}
-            <span class="dinner">Dinner</span>
+            <span className="lunch">Lunch</span> $12.95 (Seafood $13.95) |{" "}
+            <span className="dinner">Dinner</span>
             $14.95 (Seafood $18.95)
           </p>
           <p className="menu-item__description">
@@ -131,9 +131,9 @@ const FromTheWok = () => {
             and raisins.{" "}
           </p>
 
-          <figure class="image">
+          <figure className="image">
             <img
-              class="image-75 image-rounded centered-and-cropped"
+              className="image-75 image-rounded centered-and-cropped"
               src="/images/img-food-pineapple-fried-rice-shrimp.jpg"
               alt="Mali Thai Bistro - Pineapple Fried Rice Shrimp"
             />
@@ -142,12 +142,12 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">29. Green Bean Chicken</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Sautéed with green beans in a spicy curry sauce.
@@ -155,8 +155,8 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">39. Seafood Fried Rice</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span>
-            $13.95 | <span class="dinner">Dinner</span> $18.95
+            <span className="lunch">Lunch</span>
+            $13.95 | <span className="dinner">Dinner</span> $18.95
           </p>
           <p className="menu-item__description">
             Our signature fried rice made with jumbo shrimp, scallops, imatation
@@ -165,7 +165,8 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">40. Crispy Garlic Shrimp</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span>/<span class="dinner">Dinner</span>
+            <span className="lunch">Lunch</span>/
+            <span className="dinner">Dinner</span>
             $18.95
           </p>
           <p className="menu-item__description">
@@ -173,9 +174,9 @@ const FromTheWok = () => {
             sauce. Served over a bed of steamed vegetables.
           </p>
 
-          <figure class="image">
+          <figure className="image">
             <img
-              class="image-50 image-rounded centered-and-cropped"
+              className="image-50 image-rounded centered-and-cropped"
               src="/images/img-food-veggieandshrimps.jpg"
               alt="Mali Thai Bistro - Crispy Garlic Shrimp"
             />
@@ -183,12 +184,12 @@ const FromTheWok = () => {
           <p className="menu-item__caption">Crispy Garlic Shrimp</p>
           <h2 className="menu-item__title">41. Pad Pak Rom</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried mixed vegetable with homemade garlic brown sauce.
@@ -196,12 +197,12 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">42. Pad Khing</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
+            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span class="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu |
-            $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
+            | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
           <p className="menu-item__description">
             Meat or TOFU Stir fried with fresh ginger root, chinese mushroom,
@@ -210,8 +211,8 @@ const FromTheWok = () => {
 
           <h2 className="menu-item__title">43. Pad Pong Ka Ree Rom</h2>
           <p className="menu-item__price lunch-dinner">
-            <span class="lunch">Lunch</span>
-            $13.95 | <span class="dinner">Dinner</span> $18.95
+            <span className="lunch">Lunch</span>
+            $13.95 | <span className="dinner">Dinner</span> $18.95
           </p>
           <p className="menu-item__description">
             Combination of seafood (Jumbo Shrimp, Scallop, Squid, Crab meat)
