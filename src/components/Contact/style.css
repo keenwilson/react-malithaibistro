@@ -1,3 +1,10 @@
-a.contact-link {
+.contact__link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s cubic-bezier(0.39, 0.01, 0.03, 0.99);
+}
+
+.contact__link:hover {
+  color: #b24f83;
   text-decoration: none;
 }

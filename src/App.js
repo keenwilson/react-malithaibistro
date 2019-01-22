@@ -1,26 +1,30 @@
 import React, { Component } from "react";
 import { Route, Redirect, Switch } from "react-router-dom";
 import "./App.css";
-import NavBar from "./components/NavBar";
+import SubHeader from "./components/SubHeader";
 import About from "./components/About/index";
 import NotFound from "./components/notFound";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact/index";
+import Header from "./components/Header";
+import Home from "./components/Home/index";
 
 class App extends Component {
   render() {
     return (
       <section class="hero-is-fullheight">
         <div class="hero-head">
-          <NavBar />
+          <Header />
+          <SubHeader />
         </div>
 
         <div class="hero-body">
           <Switch>
+            <Route path="/home" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/not-found" component={NotFound} />
-            <Redirect from="/" exact to="/about" />
+            <Redirect from="/" exact to="/home" />
             <Redirect to="/not-found" />
           </Switch>
         </div>
