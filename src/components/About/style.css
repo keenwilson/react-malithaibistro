@@ -1,7 +1,3 @@
-.image-rounded {
-  border-radius: 0.4em 0.4em 0.4em 0.4em;
-}
-
 .image-250 {
   margin-left: auto;
   margin-right: auto;
@@ -20,12 +16,7 @@
   width: 350px;
   height: auto;
 }
-.centered-and-cropped {
-  object-fit: cover;
-}
-.text-center {
-  text-align: center !important;
-}
+
 .btn-rounded {
   border-radius: 290486px;
   padding-left: 1em;
