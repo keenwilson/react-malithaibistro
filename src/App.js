@@ -9,6 +9,7 @@ import Contact from "./components/Contact/index";
 import Header from "./components/Header";
 import Home from "./components/Home/index";
 import Menu from "./components/Menu/index";
+import Wisdom from "./components/Wisdom/index";
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/wisdom" component={Wisdom} />
             <Route path="/not-found" component={NotFound} />
             <Redirect from="/" exact to="/home" />
             <Redirect to="/not-found" />
