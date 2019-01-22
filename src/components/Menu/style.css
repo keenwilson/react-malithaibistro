@@ -74,3 +74,14 @@
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.lunch,
+.dinner {
+  color: #9e1f62;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+}

@@ -17,12 +17,6 @@
   height: auto;
 }
 
-.btn-rounded {
-  border-radius: 290486px;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
 .col-centered {
   float: none;
   margin: 0 auto;
