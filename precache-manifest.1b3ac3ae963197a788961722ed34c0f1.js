@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-malithaibistro/static/js/runtime~main.05dd23c7.js"
   },
   {
-    "revision": "7bd7b2876c177311939afa6e24cf8e97",
+    "revision": "617c3a1e20dc2428d6a9397588d67dc7",
     "url": "/react-malithaibistro/index.html"
   }
 ];
