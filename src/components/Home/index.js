@@ -14,11 +14,11 @@ const Home = () => {
       </div>
 
       <div className="jumbotron paral paralsec">
-        <h1 className="display-3 text-center restaurant-title restaurant-wrapper">
+        <h1 className="paral__text display-3 text-center restaurant-title restaurant-wrapper">
           Thai restaurant in Lee's Summit
         </h1>
 
-        <p className="lead">
+        <p className="paral__text lead">
           <a
             href="tel:+1-816-944-4119"
             role="button"
@@ -45,11 +45,11 @@ const Home = () => {
       </div>
 
       <div className="jumbotron paral paralsec1">
-        <h1 className="display-3 text-center restaurant-title restaurant-wrapper">
+        <h1 className="paral__text display-3 text-center restaurant-title restaurant-wrapper">
           Authentic Thai Cuisine
         </h1>
 
-        <p className="lead">
+        <p className="paral__text lead">
           <Link className="footer__link" to="/menu">
             <button className="btn btn-rounded btn-outline-dark">
               {" "}

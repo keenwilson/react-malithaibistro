@@ -19,32 +19,56 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-link header-link" to="/home">
                 Home <span className="sr-only">(current)</span>
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-link header-link" to="/menu/home">
                 Menu
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-link header-link" to="/contact">
                 Contact & Hours
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-link header-link" to="/community">
                 Community
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-link header-link" to="/about">
                 Our Story
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-link header-link" to="/wisdom">
                 Thai Wisdom
               </NavLink>

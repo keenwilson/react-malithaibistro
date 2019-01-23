@@ -1,9 +1,21 @@
 /* Header Parallax Element Style*/
 .paral {
-  min-height: 300px;
+  height: 300px;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .paral {
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .paral__text {
+    display: none;
+  }
 }
 
 /* Paragraph for Parallax Section */
@@ -25,7 +37,7 @@
 
 /* Image for Parallax Section */
 .paralsec {
-  background-image: url("https://i.imgur.com/6XTyfQV.jpg");
+  background-image: url("https://i.imgur.com/HVDB9dR.jpg");
 }
 
 .paralsec1 {
