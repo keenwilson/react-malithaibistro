@@ -42,6 +42,31 @@ const Wisdom = () => {
             src="/images/mali-thai-chilli-harvest-3.jpg"
             alt="Thai Chilli"
           />
+          <img
+            className="image-128x128 image-rounded centered-and-cropped"
+            src="/images/mali-thai-chilli-harvest-5.jpg"
+            alt="Thai Chilli"
+          />
+          <img
+            className="image-128x128 image-rounded centered-and-cropped"
+            src="/images/mali-thai-chilli-harvest-6.jpg"
+            alt="Thai Chilli"
+          />
+          <img
+            className="image-128x128 image-rounded centered-and-cropped"
+            src="/images/mali-thai-chilli-harvest-7.jpg"
+            alt="Thai Chilli"
+          />
+          <img
+            className="image-128x128 image-rounded centered-and-cropped"
+            src="/images/mali-thai-chilli-harvest-8.jpg"
+            alt="Thai Chilli"
+          />
+          <img
+            className="image-128x128 image-rounded centered-and-cropped"
+            src="/images/mali-thai-chilli-harvest-9.jpg"
+            alt="Thai Chilli"
+          />
 
           <p className="menu-item__description">
             Chef Nutnisa and her parents plant and harvest Thai Chilli Peppers
@@ -49,16 +74,6 @@ const Wisdom = () => {
             receives plenty of light and heat.
           </p>
 
-          <div className="card-content mb-5">
-            <img
-              className="image-75 image-rounded centered-and-cropped"
-              src="/images/mali-thai-chilli-harvest-6.jpg"
-              alt="Thai Chilli"
-            />
-            <p className="p-caption mt-2">
-              Thai hot chilli peppers locally grown in Lee's Summit. MO.
-            </p>
-          </div>
           <h3 className="menu-item__title">Lemon Grass</h3>
           <p className="menu-item__price">"Ta-khrai" in Thai</p>
           <p className="menu-item__description">
@@ -72,7 +87,7 @@ const Wisdom = () => {
           <div className="card-content mb-5">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="https://www.thespruceeats.com/thmb/JxM7XTRH-2XHM2JfALHsU2IhZ9U=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chopped-lemongrass-GettyImages-501867763-588279a65f9b58bdb3d8c385.jpg"
+              src="/images/herb-lemongrass.jpg"
               alt="Chopped lemongrass"
             />
             <p className="p-caption mt-2">
@@ -97,7 +112,7 @@ const Wisdom = () => {
           <div className="card-content mb-5">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="https://www.thespruceeats.com/thmb/6XP4L0t7Nl2fvr6tDn93UbqbzFk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/KaffirLimeleaf-GettyImages-130793889-58f52b913df78ca159d6d648.jpg"
+              src="/images/herb-kaffir-lime-leaf.jpg"
               alt="Kaffir lime leaves"
             />
             <p className="p-caption mt-2">

@@ -52,6 +52,25 @@ body {
   }
 }
 
+.image-212 {
+  width: 212px;
+  height: 159px;
+  margin-left: auto;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .image-212 {
+    width: 128px;
+    height: 96px;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
 .image-75 {
   width: 75%;
   height: auto;

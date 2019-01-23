@@ -15,7 +15,7 @@ const Home = () => {
 
       <div className="jumbotron paral paralsec">
         <h1 className="display-3 text-center restaurant-title restaurant-wrapper">
-          Mali Thai Bistro
+          Thai restaurant in Lee's Summit
         </h1>
 
         <p className="lead">
@@ -46,7 +46,7 @@ const Home = () => {
 
       <div className="jumbotron paral paralsec1">
         <h1 className="display-3 text-center restaurant-title restaurant-wrapper">
-          Mali Thai Bistro
+          Authentic Thai Cuisine
         </h1>
 
         <p className="lead">

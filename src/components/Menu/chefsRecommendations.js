@@ -13,13 +13,20 @@ const ChefsRecommendations = () => {
 
           <h2 className="menu-item__title">Lemongrass Beef</h2>
           <p className="menu-item__price">$9.95</p>
-        </div>
-        <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">Pot Sticker (steam/pan fry)</h2>
           <p className="menu-item__price">$7.95</p>
-
+        </div>
+        <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">Rad Na Taley (House Favorite)</h2>
           <p className="menu-item__price">$18.95</p>
+          <figure className="image">
+            <img
+              className="image-75 image-rounded centered-and-cropped"
+              src="/images/img-food-radna.jpg"
+              alt="Mali Thai Bistro - Rad Na Taley"
+            />
+          </figure>
+          <p className="menu-item__caption">Mee Krob Rad Na Taley</p>
         </div>
       </div>
     </div>
