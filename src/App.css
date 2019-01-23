@@ -33,8 +33,8 @@ body {
 }
 
 .image-128x128 {
-  width: 128px;
-  height: 128px;
+  width: 212px;
+  height: 212px;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -45,8 +45,8 @@ body {
 
 @media screen and (max-width: 992px) {
   .image-128x128 {
-    width: 64px;
-    height: 64px;
+    width: 150px;
+    height: 150px;
     margin-right: 0.25rem;
     margin-bottom: 0.25rem;
   }
@@ -178,10 +178,7 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.paral-wrapper {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+
 @media screen and (min-width: 992px) {
   .restaurant-title {
     padding-right: 0.5rem;

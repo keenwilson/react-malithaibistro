@@ -26,38 +26,42 @@ const Wisdom = () => {
             Other therapeutic uses include being a stomachic, carminative and
             antiflatulence agent, and digest.
           </p>
-          <h3 className="menu-item__title pl-2">Locally Grown with Love</h3>
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="https://i.imgur.com/ABxCHrVm.jpg"
-            alt="Thai Chilli"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="https://i.imgur.com/ClPHP90m.jpg"
-            alt="Thai Chilli"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="https://i.imgur.com/mrbCxpdm.jpg"
-            alt="Thai Chilli"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="https://i.imgur.com/oXE3n7vm.jpg"
-            alt="Thai Chilli"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="https://i.imgur.com/kELzYLxm.jpg"
-            alt="Thai Chilli"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="https://i.imgur.com/LnYEjfMm.jpg"
-            alt="Thai Chilli"
-          />
-
+          <h3 className="menu-item__title pl-2 text-center">
+            Locally Grown with Love
+          </h3>
+          <div class="d-flex flex-wrap justify-content-center">
+            {" "}
+            <img
+              className="image-128x128 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/ABxCHrVm.jpg"
+              alt="Thai Chilli"
+            />
+            <img
+              className="image-128x128 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/ClPHP90m.jpg"
+              alt="Thai Chilli"
+            />
+            <img
+              className="image-128x128 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/mrbCxpdm.jpg"
+              alt="Thai Chilli"
+            />
+            <img
+              className="image-128x128 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/oXE3n7vm.jpg"
+              alt="Thai Chilli"
+            />
+            <img
+              className="image-128x128 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/kELzYLxm.jpg"
+              alt="Thai Chilli"
+            />
+            <img
+              className="image-128x128 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/LnYEjfMm.jpg"
+              alt="Thai Chilli"
+            />
+          </div>
           <p className="menu-item__description">
             Chef Nutnisa and her parents plant and harvest Thai Chilli Peppers
             at the family's garden in Lee's Summit, Missouri where the chilli

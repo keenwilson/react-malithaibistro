@@ -4,7 +4,7 @@ import "./style.css";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
         <div className="col-12 ">
           <h1 className="text-center restaurant-title restaurant-wrapper">
