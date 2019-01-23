@@ -22,7 +22,7 @@ const SoupsSalads = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-thai-noodle-soup-shrimp.jpg"
+              src="https://i.imgur.com/T06AlIul.jpg"
               alt="Mali Thai Bistro - Thai Noodle Soup Shrimp"
             />
           </figure>
@@ -43,7 +43,7 @@ const SoupsSalads = () => {
           <figure className="image">
             <img
               className="image-50 image-rounded centered-and-cropped"
-              src="/images/img-food-tomyum-pot.jpg"
+              src="https://i.imgur.com/1ezdXZZl.jpg"
               alt="Mali Thai Bistro - Tom Yum (Pot)"
             />
           </figure>
@@ -62,7 +62,7 @@ const SoupsSalads = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-tomkha-soup-pot.jpg"
+              src="https://i.imgur.com/2VZDiCml.jpg"
               alt="Mali Thai Bistro - Tom Kha Soup"
             />
           </figure>
@@ -87,7 +87,7 @@ const SoupsSalads = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-yum-woon-sen.jpg"
+              src="https://i.imgur.com/XRG0wjbl.jpg"
               alt="Mali Thai Bistro - Yum Woon Sen Shrimp"
             />
           </figure>
@@ -106,7 +106,7 @@ const SoupsSalads = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-samui-salad.jpg"
+              src="https://i.imgur.com/BALDIRAl.jpg"
               alt="Mali Thai Bistro - Koh Samui Salad"
             />
           </figure>

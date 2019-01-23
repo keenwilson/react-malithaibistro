@@ -22,7 +22,7 @@ const ChefsRecommendations = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-radna.jpg"
+              src="https://i.imgur.com/HNcIaXFl.jpg"
               alt="Mali Thai Bistro - Rad Na Taley"
             />
           </figure>

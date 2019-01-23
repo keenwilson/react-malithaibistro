@@ -23,7 +23,7 @@ const Noodles = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-pad-see-ew.jpg"
+              src="https://i.imgur.com/QHoMNLol.jpg"
               alt="Mali Thai Bistro - Pad See Ew"
             />
           </figure>
@@ -62,7 +62,7 @@ const Noodles = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-pad-woonsen-chicken.jpg"
+              src="https://i.imgur.com/X46B00Ml.jpg"
               alt="Mali Thai Bistro - Pad Woon Sen"
             />
           </figure>

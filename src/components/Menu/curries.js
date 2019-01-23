@@ -23,7 +23,7 @@ const Curries = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-green-curry.jpg"
+              src="https://i.imgur.com/OSvtFzwl.jpg"
               alt="Mali Thai Bistro - Green Curry"
             />
           </figure>
@@ -43,6 +43,14 @@ const Curries = () => {
             shoot and bell pepper cooked in red curry paste and coconut milk,
             flavored with Thai basil leaves.
           </p>
+          <figure className="image">
+            <img
+              className="image-50 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/v1n3t8Il.jpg"
+              alt="Mali Thai Bistro - Red Curry"
+            />
+          </figure>
+          <p className="menu-item__caption">Red Curry</p>
         </div>
         <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">37. Gang Ka Ree</h2>
@@ -62,7 +70,7 @@ const Curries = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-gang-ka-ree-chicken.jpg"
+              src="https://i.imgur.com/s6SrDuwl.jpg"
               alt="Mali Thai Bistro - Gang Ka Ree Chicken"
             />
           </figure>

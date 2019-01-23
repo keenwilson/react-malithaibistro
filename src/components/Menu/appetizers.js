@@ -17,7 +17,7 @@ const Appetizers = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-crab-rangoon.jpg"
+              src="https://i.imgur.com/UtML05Rl.jpg"
               alt="Mali Thai Bistro - Crab Rangoon"
             />
           </figure>
@@ -72,7 +72,7 @@ const Appetizers = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-crispy-tofu.jpg"
+              src="https://i.imgur.com/JtCgH8Zl.jpg"
               alt="Mali Thai Bistro - Crispy Tofu"
             />
           </figure>
@@ -88,7 +88,7 @@ const Appetizers = () => {
           <figure className="image">
             <img
               className="image-50 image-rounded centered-and-cropped"
-              src="/images/img-food-golden-calamari-sauce.jpg"
+              src="https://i.imgur.com/56W8Md4l.jpg"
               alt="Mali Thai Bistro - Golden Calamari"
             />
           </figure>

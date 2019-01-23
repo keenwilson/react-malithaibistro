@@ -26,7 +26,7 @@ const About = () => {
           <div className="card-content mb-5">
             <img
               className="card-image image-250  image-rounded centered-and-cropped"
-              src="/images/img-about-hoffman.jpg"
+              src="https://i.imgur.com/FgKpO0Vl.jpg"
               alt="Mali Thai Bistro is founded by the Hoffman family"
             />
             <p className="p-caption mt-2">
@@ -46,7 +46,7 @@ const About = () => {
           <div className="card-content mb-5">
             <img
               className="card-image image-250 image-rounded centered-and-cropped"
-              src="/images/img-about-nutnisa-parents.jpg"
+              src="https://i.imgur.com/FwZKFzIl.jpg"
               alt="Mali Thai Bistro - Dressing up in Thai traditional costume"
             />
             <p className="p-caption mt-2">

@@ -13,7 +13,7 @@ const HouseFavorites = () => {
             <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
-          <p className="menu-item__price lunch-dinner end-menu-item">
+          <p className="menu-item__price lunch-dinner">
             <span className="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu
             | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
@@ -25,14 +25,14 @@ const HouseFavorites = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-pad-ka-paw-new.jpg"
+              src="https://i.imgur.com/V4oDBCbl.jpg"
               alt="Mali Thai Bistro - Pad Ka Prao"
             />
           </figure>
           <p className="menu-item__caption">Pad Ka Prao</p>
 
           <h2 className="menu-item__title">26. Labb Isaan</h2>
-          <p className="menu-item__price lunch-dinner end-menu-item">
+          <p className="menu-item__price lunch-dinner">
             <span className="lunch">Lunch</span>/
             <span className="dinner">Dinner</span>
             $9.95 Chicken, Pork, or Tofu | $14.95 Beef or Shrimp | $18.95
@@ -46,13 +46,13 @@ const HouseFavorites = () => {
             <img
               id="pad-ka-pao"
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-laab.jpg"
+              src="https://i.imgur.com/DOFo6tHl.jpg"
               alt="Mali Thai Bistro - Laab Isaan"
             />
           </figure>
           <p className="menu-item__caption">Laab Isaan</p>
           <h2 className="menu-item__title">28. Papaya Salad</h2>
-          <p className="menu-item__price lunch-dinner end-menu-item">
+          <p className="menu-item__price lunch-dinner">
             <span className="lunch">Lunch</span>/
             <span className="dinner">Dinner</span>
             $10.95
@@ -70,7 +70,7 @@ const HouseFavorites = () => {
             <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
-          <p className="menu-item__price lunch-dinner end-menu-item">
+          <p className="menu-item__price lunch-dinner">
             <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
             | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
@@ -84,18 +84,18 @@ const HouseFavorites = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-padthai.jpg"
+              src="https://i.imgur.com/FVJDGCXl.jpg"
               alt="Mali Thai Bistro - Pad Thai"
             />
           </figure>
-          <p className="menu-item__caption">Pad Thai</p>
+          <p className="menu-item__caption">Pad Thai with Seafood</p>
 
           <h2 className="menu-item__title">36. Panang Curry</h2>
           <p className="menu-item__price lunch-dinner">
             <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
             $12.95 Beef or Shrimp | $13.95 Seafood
           </p>
-          <p className="menu-item__price lunch-dinner end-menu-item">
+          <p className="menu-item__price lunch-dinner">
             <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
             | $14.95 Beef or Shrimp | $18.95 Seafood
           </p>
@@ -106,14 +106,14 @@ const HouseFavorites = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-panang-curry-with-tofu.jpg"
+              src="https://i.imgur.com/sd7p5Inl.jpg"
               alt="Mali Thai Bistro - Panang Curry with Tofu"
             />
           </figure>
           <p className="menu-item__caption">Panang Curry with Tofu</p>
 
           <h2 className="menu-item__title">44. Mali Thai Catfish</h2>
-          <p className="menu-item__price lunch-dinner end-menu-item">
+          <p className="menu-item__price lunch-dinner">
             <span className="lunch">Lunch</span> $13.95 |{" "}
             <span className="dinner">Dinner</span>
             $18.95
@@ -127,7 +127,7 @@ const HouseFavorites = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-mali-thai-catfish.png"
+              src="https://i.imgur.com/bCNNjlol.png"
               alt="Mali Thai Bistro - Mali Thai Catfish"
             />
           </figure>

@@ -31,22 +31,22 @@ const Community = () => {
           <div className="card-content mb-5">
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-hope-house-1.jpg"
+              src="https://i.imgur.com/KvYi7ucl.jpg"
               alt="Hope House Donation"
             />
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-hope-house-3.jpg"
+              src="https://i.imgur.com/3MkG84dl.jpg"
               alt="Hope House Donation"
             />
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-hope-house-4.jpg"
+              src="https://i.imgur.com/RS2u30Wl.jpg"
               alt="Hope House Donation"
             />
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-hope-house-5.jpg"
+              src="https://i.imgur.com/Gh1zcVal.jpg"
               alt="Hope House Donation"
             />
             <p className="p-caption mt-2">
@@ -66,22 +66,22 @@ const Community = () => {
           <div className="card-content mb-5">
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-asian-fest-2.jpg"
+              src="https://i.imgur.com/4u4ZP9zl.jpg"
               alt="Asian Cultural Festival"
             />
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-asian-fest-8.jpg"
+              src="https://i.imgur.com/CSjMzkbl.jpg"
               alt="Asian Cultural Festival"
             />
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-asian-fest-5.jpg"
+              src="https://i.imgur.com/e1ijDoNl.jpg"
               alt="Asian Cultural Festival"
             />
             <img
               className="image-212 image-rounded centered-and-cropped"
-              src="/images/img-community-asian-fest-9.jpg"
+              src="https://i.imgur.com/ehHr3hll.jpg"
               alt="Asian Cultural Festival"
             />
             <p className="p-caption mt-2">

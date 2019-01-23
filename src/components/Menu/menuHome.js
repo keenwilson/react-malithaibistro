@@ -7,30 +7,30 @@ const MenuHome = () => {
         <div className="col-12 col-md-8">
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/img-food-tomyum-pot.jpg"
-            alt="Mali Thai Bistro - Tom Yum (Pot)"
+            src="https://i.imgur.com/2VZDiCmb.jpg"
+            alt="Thai food"
           />
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/img-food-crispy-tofu.jpg"
-            alt="Mali Thai Bistro - Crispy Tofu"
+            src="https://i.imgur.com/MF6z0Osb.jpg"
+            alt="Thai food in Kansas City "
           />
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/img-food-crab-fried-rice.jpg"
+            src="https://i.imgur.com/v1n3t8Ib.jpg"
+            alt="Thai food"
+          />
+          <img
+            className="image-128x128 image-rounded centered-and-cropped"
+            src="https://i.imgur.com/V2WJ6k7b.jpg"
+            alt="Mali Thai Bistro - Rad na taley"
+          />
+          <img
+            className="image-128x128 image-rounded centered-and-cropped"
+            src="https://i.imgur.com/9omQHO0b.jpg"
             alt="Mali Thai Bistro - Crab Fried Rice"
           />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/img-food-tomkha-soup-pot.jpg"
-            alt="Mali Thai Bistro - Tom Kha Soup"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/img-food-pad-see-ew.jpg"
-            alt="Mali Thai Bistro - Pad See Ew"
-          />
-          <p className="p-article ">
+          <p className="p-article">
             Dine on authentic flavorful cuisine at Mali Thai Bistro, guests can
             start with popular appetizers like tiger cry beef, Mali Thai wings
             and Mali Thai rolls, which are spring rolls packed with colorful

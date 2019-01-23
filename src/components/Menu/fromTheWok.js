@@ -22,7 +22,7 @@ const FromTheWok = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-thai-cashew-nuts-chicken.jpg"
+              src="https://i.imgur.com/hwXPb1Il.jpg"
               alt="Mali Thai Bistro - Thai Cashew Nuts Chicken"
             />
           </figure>
@@ -100,7 +100,7 @@ const FromTheWok = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-crab-fried-rice.jpg"
+              src="https://i.imgur.com/9omQHO0l.jpg"
               alt="Mali Thai Bistro - Crab Fried Rice"
             />
           </figure>
@@ -134,7 +134,7 @@ const FromTheWok = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-pineapple-fried-rice-shrimp.jpg"
+              src="https://i.imgur.com/PxYaAKYl.jpg"
               alt="Mali Thai Bistro - Pineapple Fried Rice Shrimp"
             />
           </figure>
@@ -177,7 +177,7 @@ const FromTheWok = () => {
           <figure className="image">
             <img
               className="image-50 image-rounded centered-and-cropped"
-              src="/images/img-food-veggieandshrimps.jpg"
+              src="https://i.imgur.com/Qsq3xhal.jpg"
               alt="Mali Thai Bistro - Crispy Garlic Shrimp"
             />
           </figure>

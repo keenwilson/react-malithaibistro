@@ -11,7 +11,7 @@ const Desserts = () => {
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/img-food-mango-sticky-rice.jpg"
+              src="https://i.imgur.com/BrFaCVHl.jpg"
               alt="Mali Thai Bistro - Mango Sticky Rice"
             />
           </figure>

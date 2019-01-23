@@ -48,7 +48,7 @@ const Contact = () => {
           <img
             id="mali-thai-bistro-front"
             className="image-75 image-rounded centered-and-cropped my-3"
-            src="/images/img-restaurant-front.jpg"
+            src="https://i.imgur.com/i3k1iqGl.jpg"
             alt="Mali Thai Bistro - Lee's Summit"
           />
           <h2 className="heading-subtitle text-center">Opens</h2>
