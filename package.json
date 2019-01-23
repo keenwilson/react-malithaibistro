@@ -2,7 +2,7 @@
   "name": "react-malithaibistro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://keenwilson.github.io/react-malithaibistro",
+  "homepage": "https://keenwilson.github.io/react-malithaibistro/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
