@@ -29,42 +29,32 @@ const Wisdom = () => {
           <h3 className="menu-item__title pl-2">Locally Grown with Love</h3>
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-1.jpg"
+            src="https://i.imgur.com/ABxCHrVm.jpg"
             alt="Thai Chilli"
           />
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-2.jpg"
+            src="https://i.imgur.com/ClPHP90m.jpg"
             alt="Thai Chilli"
           />
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-3.jpg"
+            src="https://i.imgur.com/mrbCxpdm.jpg"
             alt="Thai Chilli"
           />
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-5.jpg"
+            src="https://i.imgur.com/oXE3n7vm.jpg"
             alt="Thai Chilli"
           />
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-6.jpg"
+            src="https://i.imgur.com/kELzYLxm.jpg"
             alt="Thai Chilli"
           />
           <img
             className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-7.jpg"
-            alt="Thai Chilli"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-8.jpg"
-            alt="Thai Chilli"
-          />
-          <img
-            className="image-128x128 image-rounded centered-and-cropped"
-            src="/images/mali-thai-chilli-harvest-9.jpg"
+            src="https://i.imgur.com/LnYEjfMm.jpg"
             alt="Thai Chilli"
           />
 
@@ -87,7 +77,7 @@ const Wisdom = () => {
           <div className="card-content mb-5">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/herb-lemongrass.jpg"
+              src="https://i.imgur.com/gIuf7PDm.jpg"
               alt="Chopped lemongrass"
             />
             <p className="p-caption mt-2">
@@ -112,7 +102,7 @@ const Wisdom = () => {
           <div className="card-content mb-5">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/herb-kaffir-lime-leaf.jpg"
+              src="https://i.imgur.com/gntejibm.jpg"
               alt="Kaffir lime leaves"
             />
             <p className="p-caption mt-2">
@@ -132,7 +122,7 @@ const Wisdom = () => {
           <div className="card-content mb-5">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/herb-bai-ka-prao.jpg"
+              src="https://i.imgur.com/zhNqxVYm.jpg"
               alt="Bai Ka Prao (Thai Holy Basil)"
             />
             <p className="p-caption mt-2">
@@ -153,7 +143,7 @@ const Wisdom = () => {
           <div className="card-content mb-5">
             <img
               className="image-75 image-rounded centered-and-cropped"
-              src="/images/herb-garlic.jpg"
+              src="https://i.imgur.com/Sdf4Q81m.jpg"
               alt="Garlic"
             />
             <p className="p-caption mt-2">

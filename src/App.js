@@ -13,12 +13,8 @@ import Wisdom from "./components/Wisdom/index";
 import Community from "./components/Community/index";
 
 class App extends Component {
-  state = {
-    publicUrl:
-      "https://github.com/keenwilson/react-malithaibistro/blob/master/public"
-  };
-
   render() {
+    console.log("This is the process.env", process.env.PUBLIC_URL);
     return (
       <section className="hero-is-fullheight">
         <div className="hero-head">
@@ -29,12 +25,7 @@ class App extends Component {
         <div className="hero-body">
           <Switch>
             <Route path="/home" component={Home} />
-            <Route
-              path="/menu"
-              render={props => (
-                <Menu {...props} publicUrl={this.state.publicUrl} />
-              )}
-            />
+            <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/wisdom" component={Wisdom} />

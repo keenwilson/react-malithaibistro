@@ -67,7 +67,8 @@ const Home = () => {
             vegetables and cream cheese. A selection of traditional Thai soups,
             salads, and vegetarian options are also available with the rest of
             the menu flavorful fried rice dishes, stir-frys, noodles and curries
-            all available in mild * , medium ** , hot *** , and Thai hot **** .
+            all available in four levels: mild * , medium ** , hot *** , and
+            Thai hot ****.
           </p>
         </div>
       </div>

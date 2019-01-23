@@ -1,3 +1,16 @@
+#site-header {
+  position: relative;
+  z-index: 200;
+}
+
+.navbar {
+  position: static;
+}
+
+.navbar .nav > li {
+  position: relative;
+  z-index: 100;
+}
 .main-menu {
   height: 54px;
   background-color: #faf8f6;
@@ -9,6 +22,7 @@
 
 .header-link {
   color: #000;
+  background-color: #faf8f6;
   transition: color 0.3s cubic-bezier(0.39, 0.01, 0.03, 0.99);
   transition-property: color;
   transition-duration: 0.3s;
@@ -29,5 +43,14 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
+  .header-link {
+    overflow-x: visible;
+    overflow-y: auto;
+    display: block;
+    border-bottom: 1px solid #f0ede8;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 3%;
+  }
 }

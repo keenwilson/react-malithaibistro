@@ -3,13 +3,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 class Footer extends Component {
-  state = {
-    publicUrl:
-      "https://github.com/keenwilson/react-malithaibistro/blob/master/public"
-  };
-
   render() {
-    const { publicUrl } = this.state;
     return (
       <footer className="footer has-background-gradients text-center text-footer">
         <div className="container">
@@ -18,7 +12,7 @@ class Footer extends Component {
               <figure className="image">
                 <img
                   className="site-logo centered-and-cropped"
-                  src={publicUrl + "/images/logo-mali-thai-bistro-new.png"}
+                  src="https://i.imgur.com/nq9WN1J.png"
                   alt="Mali Thai Bistro logo"
                 />
               </figure>

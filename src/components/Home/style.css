@@ -25,15 +25,15 @@
 
 /* Image for Parallax Section */
 .paralsec {
-  background-image: url("/images/img-restaurant-windowseating.jpg");
+  background-image: url("https://i.imgur.com/6XTyfQV.jpg");
 }
 
 .paralsec1 {
-  background-image: url("/images/img-restaurant-welcome-elephant.jpg");
+  background-image: url("https://i.imgur.com/KtymcFG.jpg");
 }
 
 .paralsec2 {
-  background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+  background-image: url("https://i.imgur.com/M6TvbsT.jpg");
 }
 
 /* Add more images for more sections */
