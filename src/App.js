@@ -13,6 +13,11 @@ import Wisdom from "./components/Wisdom/index";
 import Community from "./components/Community/index";
 
 class App extends Component {
+  state = {
+    publicUrl:
+      "https://github.com/keenwilson/react-malithaibistro/blob/master/public"
+  };
+
   render() {
     return (
       <section className="hero-is-fullheight">
@@ -24,7 +29,12 @@ class App extends Component {
         <div className="hero-body">
           <Switch>
             <Route path="/home" component={Home} />
-            <Route path="/menu" component={Menu} />
+            <Route
+              path="/menu"
+              render={props => (
+                <Menu {...props} publicUrl={this.state.publicUrl} />
+              )}
+            />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/wisdom" component={Wisdom} />
