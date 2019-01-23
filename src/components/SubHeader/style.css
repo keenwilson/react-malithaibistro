@@ -52,6 +52,12 @@
   font-family: "Open Sans", sans-serif;
 }
 
+@media screen and (max-width: 992px) {
+  .sub-header__text {
+    font-size: 01rem;
+  }
+}
+
 .sub_header__link {
   color: #fff;
   text-decoration: none;

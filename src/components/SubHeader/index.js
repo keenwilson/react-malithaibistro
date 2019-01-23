@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className="align-middle text-center">
         <div className="sub-header__text mx-auto text-center">
           <span>
-            Reserve Your Table or Order a Carryout at{" "}
+            Reserve Your Table at{" "}
             <a className="sub_header__link" href="tel:+1-816-944-4119">
               (816) 944-4119
             </a>

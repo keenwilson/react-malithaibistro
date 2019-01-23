@@ -1,6 +1,6 @@
 /* Header Parallax Element Style*/
 .paral {
-  height: 300px;
+  height: 400px;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -8,13 +8,29 @@
 
 @media screen and (max-width: 992px) {
   .paral {
-    height: 250px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
+    display: none;
   }
   .paral__text {
     display: none;
+  }
+  .image-h-250 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .paral-wrapper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .image-h-250 {
+    display: none;
+  }
+  .paral-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }
 

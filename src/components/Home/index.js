@@ -33,6 +33,11 @@ const Home = () => {
       </div>
       <div className="row paral-wrapper">
         <div className="col-12 ">
+          <img
+            className="image-h-250 image-rounded centered-and-cropped"
+            src="https://i.imgur.com/HVDB9dRl.jpg"
+            alt="Thai restaurant in Kansas City area"
+          />
           <p className="p-article ">
             Founded in 2015, Mali Thai Bistro is family-owned restaurant and
             offers a variety of Thai dishes from several regions of Thailand
@@ -60,6 +65,11 @@ const Home = () => {
       </div>
       <div className="row paral-wrapper">
         <div className="col-12">
+          <img
+            className="image-h-250 image-rounded centered-and-cropped"
+            src="https://i.imgur.com/KtymcFGl.jpg"
+            alt="Thai restaurant in Kansas City area"
+          />
           <p className="p-article ">
             Dine on authentic flavorful cuisine at Mali Thai Bistro, guests can
             start with popular appetizers like tiger cry beef, Mali Thai wings
