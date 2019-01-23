@@ -11,7 +11,7 @@ const Footer = () => {
             <figure className="image">
               <img
                 className="site-logo centered-and-cropped"
-                src="/images/logo-mali-thai-bistro-new.png"
+                src="/public/images/logo-mali-thai-bistro-new.png"
                 alt="Mali Thai Bistro logo"
               />
             </figure>
