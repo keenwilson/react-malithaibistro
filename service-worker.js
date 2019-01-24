@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-malithaibistro/precache-manifest.9a149343ccc30a05fe2a41238b70bb1e.js"
+  "/react-malithaibistro/precache-manifest.64394851efa1f7397db44d581b4ea16e.js"
 );
 
 workbox.clientsClaim();

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e837fc1ad77d2e98347c",
+    "revision": "77546ad9759e6ada7bc5",
     "url": "/react-malithaibistro/static/css/main.8e9366ce.chunk.css"
   },
   {
-    "revision": "e837fc1ad77d2e98347c",
-    "url": "/react-malithaibistro/static/js/main.e837fc1a.chunk.js"
+    "revision": "77546ad9759e6ada7bc5",
+    "url": "/react-malithaibistro/static/js/main.77546ad9.chunk.js"
   },
   {
     "revision": "b5409d2c4383db3ed53e",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-malithaibistro/static/js/runtime~main.05dd23c7.js"
   },
   {
-    "revision": "b4f3bb0a7eca9add6c9ebdbfb0e86a30",
+    "revision": "35227ae57787a21a19d39179de4a4f1b",
     "url": "/react-malithaibistro/index.html"
   }
 ];
