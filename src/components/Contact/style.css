@@ -8,3 +8,20 @@
   color: #b24f83;
   text-decoration: none;
 }
+
+#google-maps-lg {
+  display: visible;
+}
+
+#google-maps-sm {
+  display: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  #google-maps-lg {
+    display: none;
+  }
+  #google-maps-sm {
+    display: visible;
+  }
+}
