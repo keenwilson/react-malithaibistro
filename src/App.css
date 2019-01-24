@@ -185,3 +185,18 @@ body {
     padding-left: 0.5rem;
   }
 }
+
+.notFound__link {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.notFound__link:hover {
+  color: #b24f83;
+  text-decoration: none;
+}
