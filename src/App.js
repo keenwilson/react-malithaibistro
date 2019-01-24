@@ -24,14 +24,14 @@ class App extends Component {
 
         <div className="hero-body">
           <Switch>
-            <Route path="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/wisdom" component={Wisdom} />
             <Route path="/community" component={Community} />
             <Route path="/not-found" component={NotFound} />
-            <Redirect from="/" exact to="/home" />
+            <Redirect from="/home" to="/" />
             <Redirect to="/not-found" />
           </Switch>
         </div>
