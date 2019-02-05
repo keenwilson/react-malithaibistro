@@ -19,7 +19,7 @@ class Footer extends Component {
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <span className="footer__link">
-                    Monday - Thursday : 11 AM - 9 PM
+                    Tuesday - Thursday : 11 AM - 9 PM
                   </span>
                 </li>
                 <li className="list-group-item">
@@ -29,6 +29,9 @@ class Footer extends Component {
                 </li>
                 <li className="list-group-item">
                   <span className="footer__link">Sunday : 12 PM - 8 PM</span>
+                </li>
+                <li className="list-group-item">
+                  <span className="footer__link">Monday : closed</span>
                 </li>
               </ul>
             </div>

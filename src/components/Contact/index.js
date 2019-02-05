@@ -33,9 +33,8 @@ const Contact = () => {
               <i className="fas fa-directions" /> Get Directions on Google Maps
             </p>
           </a>
-          <div className="text-center google-maps">
+          <div id="google-maps-lg" className="text-center google-maps">
             <iframe
-              id="google-maps-lg"
               title="google-maps-lg"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.713727647188!2d-94.36400138493715!3d38.90766127956916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c11f86d983b907%3A0x3bd9180212768102!2sMali+Thai+Bistro!5e0!3m2!1sen!2sus!4v1539913871180"
               width="518"
@@ -44,15 +43,16 @@ const Contact = () => {
               allowfullscreen
             />
           </div>
-          <iframe
-            id="google-maps-sm"
-            title="google-maps-sm"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6209.427479748709!2d-94.361813!3d38.907661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3bd9180212768102!2sMali+Thai+Bistro!5e0!3m2!1sen!2sus!4v1548289390241"
-            width="370"
-            height="370"
-            frameborder="0"
-            allowfullscreen
-          />
+          <div id="google-maps-sm" className="text-center google-maps">
+            <iframe
+              title="google-maps-sm"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6209.427479748709!2d-94.361813!3d38.907661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3bd9180212768102!2sMali+Thai+Bistro!5e0!3m2!1sen!2sus!4v1548289390241"
+              width="370"
+              height="370"
+              frameborder="0"
+              allowfullscreen
+            />
+          </div>
         </div>
         <div className="col-12 col-md-6 text-center">
           <img
@@ -63,7 +63,7 @@ const Contact = () => {
           />
           <h2 className="heading-subtitle text-center">Opens</h2>
           <p className="text-center contact-title__link">
-            Monday - Thursday : 11 AM - 9 PM
+            Tuesday - Thursday : 11 AM - 9 PM
           </p>
           <p className=" text-center contact-title__link">
             Friday - Saturday : 11 AM - 10 PM
@@ -71,6 +71,7 @@ const Contact = () => {
           <p className="text-center contact-title__link">
             Sunday : 12 PM - 8 PM
           </p>
+          <p className="text-center contact-title__link">Monday : closed</p>
           <p className="heading-subtitle text-center">
             We are closed for the following days:
           </p>
