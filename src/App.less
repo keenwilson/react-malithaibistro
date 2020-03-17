@@ -1,7 +1,7 @@
 .special-announcement {
   padding: 0px 32px 0px 32px;
   @media only screen and (max-width: 768px) {
-    width: 350px;
+    width: 100%;
     padding: 0px 0px 0px 0px;
   }
   .info-annoucemnet {
@@ -50,26 +50,39 @@
   font-weight: 500;
 }
 .welcome-layout {
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
   font-family: 'Noto Sans', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 0 48px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 0;
+    flex-direction: column;
+  }
   background: transparent;
   .welcome {
     width: 100%;
   }
+  .welcome-sider {
+    width: 300px;
+    @media only screen and (max-width: 768px) {
+      width: auto;
+    }
+  }
   .ant-layout-sider {
     background: transparent;
   }
+
   .welcome-content {
     padding: 12px 36px;
     letter-spacing: 0.05em;
     font-size: 0.9rem;
     line-height: 32px;
     font-weight: 200;
-    @media only screen and (max-width: 768px) {
-      padding: 0;
-    }
+
     background-color: transparent;
     text-align: center;
     .welcome-options {
@@ -81,6 +94,32 @@
     p {
       padding: 12px 0px;
       text-align: left;
+    }
+  }
+}
+
+.mobile-welcome-content {
+  margin-top: 24px;
+  text-align: center;
+  .mobile-welcome-pic {
+    width: 300px;
+  }
+  .mobile-welcome-text {
+    margin: 24px 12px 24px 24px;
+    letter-spacing: 0.05em;
+    font-size: 0.9rem;
+    line-height: 32px;
+    font-weight: 200;
+    text-align: center;
+    background-color: transparent;
+  }
+  .mobile-welcome-options {
+    margin-bottom: 24px;
+    .mobile-option {
+      font-family: 'Noto Serif', serif;
+      background-color: #e8dee2;
+      border: 1px solid #c3a8b3;
+      letter-spacing: 0.05em;
     }
   }
 }
