@@ -19,7 +19,8 @@ const Home = () => {
           and hardworking team that prepares your meals and serves them, and you
           our wonderful customers, is our top priority. With the concern for our
           entire Thai Bistro family and our community, difficult decision’s must
-          be made, and we have decided to close our restaurants until April 1st.
+          be made, and we have decided to close our restaurants until April 1st.{' '}
+          <br /> <br />
           Please follow us on our Facebook page and website for updates as we
           monitor the situation. We would like your feedback on potentially
           offering a curbside service by next week.
