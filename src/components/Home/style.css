@@ -1,0 +1,72 @@
+/* Header Parallax Element Style*/
+.paral {
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .paral {
+    display: none;
+  }
+  .paral__text {
+    display: none;
+  }
+  .image-h-250 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .paral-wrapper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .image-h-250 {
+    display: none;
+  }
+  .paral-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Paragraph for Parallax Section */
+.paral p {
+  font-size: 24px;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 100px;
+}
+
+/* Image for Parallax Section */
+.paralsec {
+  background-image: url("https://i.imgur.com/HVDB9dR.jpg");
+}
+
+.paralsec1 {
+  background-image: url("https://i.imgur.com/KtymcFG.jpg");
+}
+
+.paralsec2 {
+  background-image: url("https://i.imgur.com/M6TvbsT.jpg");
+}
+
+/* Add more images for more sections */
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron {
+  margin-bottom: 0;
+}

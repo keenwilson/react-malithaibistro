@@ -1,0 +1,28 @@
+.contact__link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s cubic-bezier(0.39, 0.01, 0.03, 0.99);
+}
+
+.contact__link:hover {
+  color: #b24f83;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  #google-maps-lg {
+    display: none;
+  }
+  #google-maps-sm {
+    display: visible;
+  }
+}
+@media screen and (min-width: 993px) {
+  #google-maps-lg {
+    display: visible;
+  }
+
+  #google-maps-sm {
+    display: none;
+  }
+}
