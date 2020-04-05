@@ -94,7 +94,9 @@ const Home = () => {
 
           <div className="mobile-welcome-options">
             <Button className="mobile-option" size="large">
-              <a href="tel:+1-816-944-4119">Reserve Your Table</a>
+              <a href="tel:+1-816-944-4119">
+                Order Carry Out / Curbside Service
+              </a>
             </Button>
           </div>
           <div className="mobile-welcome-options">
