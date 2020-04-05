@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.css";
+import React from 'react'
+import './style.css'
 
 const NavBar = () => {
   return (
@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className="align-middle text-center">
         <div className="sub-header__text mx-auto text-center">
           <span>
-            Reserve Your Table at{" "}
+            Order Carry-Out or Curbside Service at{' '}
             <a className="sub_header__link" href="tel:+1-816-944-4119">
               (816) 944-4119
             </a>
@@ -15,7 +15,7 @@ const NavBar = () => {
         </div>
       </div>
     </aside>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar

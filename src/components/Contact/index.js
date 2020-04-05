@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.css";
+import React from 'react'
+import './style.css'
 
 const Contact = () => {
   return (
@@ -62,7 +62,7 @@ const Contact = () => {
             alt="Mali Thai Bistro - Lee's Summit"
           />
           <h2 className="heading-subtitle text-center">Opens</h2>
-          <p className="text-center contact-title__link">
+          {/* <p className="text-center contact-title__link">
             Tuesday - Thursday : 11 AM - 9 PM
           </p>
           <p className=" text-center contact-title__link">
@@ -70,6 +70,16 @@ const Contact = () => {
           </p>
           <p className="text-center contact-title__link">
             Sunday : 12 PM - 8 PM
+          </p>
+          <p className="text-center contact-title__link">Monday : closed</p> */}
+          <p className="text-center contact-title__link">
+            Tuesday - Thursday : 11:00 AM - 8:00 PM
+          </p>
+          <p className=" text-center contact-title__link">
+            Friday - Saturday : 11:00 AM - 9:00 PM
+          </p>
+          <p className="text-center contact-title__link">
+            Sunday : 12:00 PM - 8:00 PM
           </p>
           <p className="text-center contact-title__link">Monday : closed</p>
           <p className="heading-subtitle text-center">
@@ -84,7 +94,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./style.css";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import './style.css'
 
 class Footer extends Component {
   render() {
@@ -19,12 +19,12 @@ class Footer extends Component {
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <span className="footer__link">
-                    Tuesday - Thursday : 11 AM - 9 PM
+                    Tuesday - Thursday : 11 AM - 8 PM
                   </span>
                 </li>
                 <li className="list-group-item">
                   <span className="footer__link">
-                    Friday - Saturday : 11 AM - 10 PM
+                    Friday - Saturday : 11 AM - 9 PM
                   </span>
                 </li>
                 <li className="list-group-item">
@@ -104,8 +104,8 @@ class Footer extends Component {
           </div>
         </div>
       </footer>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer
