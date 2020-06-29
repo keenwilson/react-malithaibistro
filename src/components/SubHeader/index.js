@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className="align-middle text-center">
         <div className="sub-header__text mx-auto text-center">
           <span>
-            Order Carry-Out or Curbside Service at{' '}
+            Place your order or make a reservation at{' '}
             <a className="sub_header__link" href="tel:+1-816-944-4119">
               (816) 944-4119
             </a>
