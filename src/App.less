@@ -109,9 +109,9 @@
   .welcome-content {
     padding: 12px 36px;
     letter-spacing: 0.05em;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 32px;
-    font-weight: 200;
+    font-weight: 400;
 
     background-color: transparent;
     text-align: center;
@@ -124,6 +124,9 @@
     p {
       padding: 12px 0px;
       text-align: left;
+    }
+    .dine-in-take-out {
+      text-align: center;
     }
   }
 }
@@ -138,11 +141,10 @@
     width: 300px;
   }
   .mobile-welcome-text {
-    margin: 24px 12px 24px 24px;
-    letter-spacing: 0.05em;
-    font-size: 0.9rem;
-    line-height: 32px;
-    font-weight: 200;
+    margin: 24px;
+    font-size: 1.25rem;
+    line-height: 1.25em;
+    font-weight: 400;
     text-align: center;
     background-color: transparent;
   }
@@ -154,5 +156,28 @@
       border: 1px solid #c3a8b3;
       letter-spacing: 0.05em;
     }
+  }
+}
+
+.underline-60 {
+  margin-top: 1em;
+}
+.underline-60:after {
+  text-align: center !important;
+  box-sizing: border-box;
+  width: 60px;
+  margin: 14px auto;
+  content: '';
+  display: block;
+  height: 4px;
+}
+.underline-60:after {
+  background-color: #262626;
+}
+
+.welcome-row {
+  max-width: 1280px;
+
+  .welcome-layout {
   }
 }

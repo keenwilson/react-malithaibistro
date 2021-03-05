@@ -8,7 +8,9 @@ const { Content, Sider } = Layout
 const Home = () => {
   return (
     <div>
-      <h1 className="brand-title">Mali Thai Bistro</h1>
+      <h1 className="heading-title text-center underline-60">
+        Mali Thai Bistro
+      </h1>
 
       <div className="welcome-row">
         <Layout className="welcome-layout">
@@ -29,11 +31,24 @@ const Home = () => {
               individuals wanting their meals to go.
             </p>
 
-            <Button className="welcome-options" size="large">
-              <Link className="footer__link" to="/menu">
-                See Our Menu
-              </Link>
-            </Button>
+            <h1 className="heading-title text-center underline-60">
+              Dine-in and take-out
+            </h1>
+            <p className="dine-in-take-out">
+              Our Dining Room is now open. You can also Dine-iplace your
+              carryout order online.
+            </p>
+            <div className="mobile-welcome-options">
+              <Button className="mobile-option" size="large">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.ordermalithaibistro.com/"
+                >
+                  Order Online
+                </a>
+              </Button>
+            </div>
           </Content>
         </Layout>
       </div>
@@ -51,12 +66,24 @@ const Home = () => {
           Bistro caters private events and provides carry-out for individuals
           wanting their meals to go.
         </p>
-
+        <h1 className="heading-title underline-60">Dine-in and take-out</h1>
+        <p className="mobile-welcome-text">
+          Our Dining Room is now open.
+          <br />
+          You can also Dine-iplace your carryout order online.
+        </p>
         <div className="mobile-welcome-options">
           <Button className="mobile-option" size="large">
-            <a href="tel:+1-816-944-4119">Order Carry Out / Curbside Service</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.ordermalithaibistro.com/"
+            >
+              Order Online
+            </a>
           </Button>
         </div>
+        <h1 className="heading-title underline-60">Menu</h1>
         <div className="mobile-welcome-options">
           <Button className="mobile-option" size="large">
             <Link className="footer__link" to="/menu">

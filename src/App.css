@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   background-color: #faf8f6;
 }
@@ -14,6 +14,8 @@ body {
 .hero-body {
   align-items: center;
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 .hero-foot {
   flex-grow: 0;
@@ -21,7 +23,7 @@ body {
 }
 
 .heading-title {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   font-size: 2.25rem;
   line-height: 1.07;
@@ -121,19 +123,19 @@ body {
 }
 
 .restaurant-title {
-  font-family: "Noto Serif SC", serif;
+  font-family: 'Noto Serif SC', serif;
   font-weight: 900;
   font-size: 2.5rem;
 }
 
 .heading-title {
-  font-family: "Noto Serif SC", serif;
+  font-family: 'Noto Serif SC', serif;
   font-weight: 900;
   font-size: 2rem;
   padding: 0.5rem;
 }
 .heading-subtitle {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0.1rem;
   font-size: 1.25rem;
 }
@@ -143,7 +145,7 @@ body {
     background-color: #faf8f6;
   }
   .nav-item__mobile {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #333;
     background-color: #faf8f6;
     border-top: 1px solid #666;
@@ -153,7 +155,7 @@ body {
 }
 
 .p-article {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   padding: 0.5rem 0.75rem;
   font-size: 0.875rem;
@@ -162,7 +164,7 @@ body {
   padding-right: 5%;
 }
 .p-caption {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: -1.25rem;
   font-size: 0.8125rem;
   color: #4a4a4a;
@@ -187,7 +189,7 @@ body {
 }
 
 .notFound__link {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   font-size: 0.875rem;
   line-height: 1.25;

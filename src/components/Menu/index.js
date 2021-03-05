@@ -1,16 +1,16 @@
-import React from "react";
-import { Redirect, Route, Link } from "react-router-dom";
-import Drinks from "./drinks";
-import Appetizers from "./appetizers";
-import HouseFavorites from "./houseFavorites";
-import ChefsRecommendations from "./chefsRecommendations";
-import FromTheWok from "./fromTheWok";
-import SoupsSalads from "./soupsSalads";
-import Noodles from "./noodles";
-import Curries from "./curries";
-import Desserts from "./desserts";
-import "./style.css";
-import MenuHome from "./menuHome";
+import React from 'react'
+import { Redirect, Route, Link } from 'react-router-dom'
+import Drinks from './drinks'
+import Appetizers from './appetizers'
+import HouseFavorites from './houseFavorites'
+import ChefsRecommendations from './chefsRecommendations'
+import FromTheWok from './fromTheWok'
+import SoupsSalads from './soupsSalads'
+import Noodles from './noodles'
+import Curries from './curries'
+import Desserts from './desserts'
+import './style.css'
+import MenuHome from './menuHome'
 
 const Menu = () => {
   return (
@@ -18,7 +18,7 @@ const Menu = () => {
       <div className="row">
         <div className="col-md-12">
           <Link to="/menu/home" className="menu-title__link">
-            <h1 className="heading-title text-center">Menu</h1>
+            <h1 className="heading-title text-center underline-60">Menu</h1>
           </Link>
 
           <h2 className="heading-subtitle text-center">
@@ -79,24 +79,24 @@ const Menu = () => {
         </div>
       </div>
       <div className="row">
-        <Route path={"/menu/home"} component={MenuHome} />
-        <Route path={"/menu/drinks"} component={Drinks} />
-        <Route path={"/menu/appetizers"} component={Appetizers} />
-        <Route path={"/menu/housefavorites"} component={HouseFavorites} />
+        <Route path={'/menu/home'} component={MenuHome} />
+        <Route path={'/menu/drinks'} component={Drinks} />
+        <Route path={'/menu/appetizers'} component={Appetizers} />
+        <Route path={'/menu/housefavorites'} component={HouseFavorites} />
         <Route
-          path={"/menu/chefsrecommendations"}
+          path={'/menu/chefsrecommendations'}
           component={ChefsRecommendations}
         />
-        <Route path={"/menu/fromthewok"} component={FromTheWok} />
-        <Route path={"/menu/soupssalads"} component={SoupsSalads} />
-        <Route path={"/menu/noodles"} component={Noodles} />
-        <Route path={"/menu/curries"} component={Curries} />
-        <Route path={"/menu/desserts"} component={Desserts} />
+        <Route path={'/menu/fromthewok'} component={FromTheWok} />
+        <Route path={'/menu/soupssalads'} component={SoupsSalads} />
+        <Route path={'/menu/noodles'} component={Noodles} />
+        <Route path={'/menu/curries'} component={Curries} />
+        <Route path={'/menu/desserts'} component={Desserts} />
         <Redirect from="/menu/" exact to="/menu/home" />
         <Redirect to="/menu/home" />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Menu;
+export default Menu

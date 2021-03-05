@@ -2,7 +2,7 @@
   background-color: transparent;
 }
 .has-background-gradients {
-  background: #b24f83; /* fallback for old browsers */
+  background: #9e1f62; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #9e1f62,
@@ -16,7 +16,7 @@
 }
 
 .sub-header {
-  height: 31px;
+  height: 75px;
   padding-bottom: 0px;
   padding-top: 0px;
   padding-left: 0px;
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 992px) {
   .sub-header {
-    height: 62px;
+    height: 75px;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 10%;
@@ -40,16 +40,16 @@
   align-items: center;
   flex-grow: 0;
   flex-shrink: 0;
-  padding: 0.5rem 0.75rem;
+  padding: 0rem 0.75rem;
   position: relative;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   line-height: 1.785;
   color: #fff;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: normal;
   font-stretch: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 992px) {

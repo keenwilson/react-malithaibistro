@@ -21,7 +21,7 @@
 }
 
 .header-link {
-  color: #000;
+  color: #000 !important;
   background-color: #faf8f6;
   transition: color 0.3s cubic-bezier(0.39, 0.01, 0.03, 0.99);
   transition-property: color;
