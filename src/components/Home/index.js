@@ -35,8 +35,8 @@ const Home = () => {
               Dine-in and take-out
             </h1>
             <p className="dine-in-take-out">
-              Our Dining Room is now open. You can also Dine-iplace your
-              carryout order online.
+              Our Dining Room is now open. You can also place your carryout
+              order online.
             </p>
             <div className="mobile-welcome-options">
               <Button className="mobile-option" size="large">

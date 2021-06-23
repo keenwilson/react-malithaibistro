@@ -62,21 +62,12 @@ const Contact = () => {
             alt="Mali Thai Bistro - Lee's Summit"
           />
           <h2 className="heading-subtitle text-center">Opens</h2>
-          {/* <p className="text-center contact-title__link">
-            Tuesday - Thursday : 11 AM - 9 PM
+
+          <p className="text-center contact-title__link">
+            Tuesday - Thursday : 11:00 AM - 9:00 PM
           </p>
           <p className=" text-center contact-title__link">
-            Friday - Saturday : 11 AM - 10 PM
-          </p>
-          <p className="text-center contact-title__link">
-            Sunday : 12 PM - 8 PM
-          </p>
-          <p className="text-center contact-title__link">Monday : closed</p> */}
-          <p className="text-center contact-title__link">
-            Tuesday - Thursday : 11:00 AM - 8:00 PM
-          </p>
-          <p className=" text-center contact-title__link">
-            Friday - Saturday : 11:00 AM - 9:00 PM
+            Friday - Saturday : 11:00 AM - 10:00 PM
           </p>
           <p className="text-center contact-title__link">
             Sunday : 12:00 PM - 8:00 PM
