@@ -76,12 +76,8 @@ const Contact = () => {
           <p className="heading-subtitle text-center">
             We are closed for the following days:
           </p>
-          <p className=" text-center contact-title__link">
-            Thursday 11/28/2019 (Thanksgiving Day)
-          </p>
-          <p className="text-center contact-title__link">
-            Wednesday 12/25/2019 (Christmas Day)
-          </p>
+          <p className=" text-center contact-title__link">Thanksgiving Day</p>
+          <p className="text-center contact-title__link">Christmas Day</p>
         </div>
       </div>
     </div>

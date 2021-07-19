@@ -1,17 +1,33 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Layout, Card, Icon, Button } from 'antd'
+import { Alert, Layout, Button } from 'antd'
 import './style.css'
 
 const { Content, Sider } = Layout
 
 const Home = () => {
+  const [showAlert, setShowAlert] = useState(false)
+
+  useEffect(() => {
+    var dateFrom = '07/19/2021'
+    var dateTo = '07/21/2021'
+    var from = Date.parse(dateFrom)
+    var to = Date.parse(dateTo)
+    var check = Date.now()
+
+    if (check <= to && check >= from) setShowAlert(true)
+  })
   return (
     <div>
       <h1 className="heading-title text-center underline-60">
         Mali Thai Bistro
       </h1>
-
+      {showAlert && (
+        <Alert
+          message="We will closed from Monday July19 thru Wednesday, July 21 for a team retreat. We will be back to serve delicious Thai food on Thursday the 22nd."
+          type="info"
+        />
+      )}
       <div className="welcome-row">
         <Layout className="welcome-layout">
           <Sider className="welcome-sider" width={300}>
