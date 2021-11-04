@@ -64,10 +64,10 @@ const Contact = () => {
           <h2 className="heading-subtitle text-center">Opens</h2>
 
           <p className="text-center contact-title__link">
-            Tuesday - Thursday : 11:00 AM - 9:00 PM
+            Tuesday - Thursday : 11:00 AM - 8:30 PM
           </p>
           <p className=" text-center contact-title__link">
-            Friday - Saturday : 11:00 AM - 10:00 PM
+            Friday - Saturday : 11:00 AM - 9:30 PM
           </p>
           <p className="text-center contact-title__link">
             Sunday : 12:00 PM - 8:00 PM
