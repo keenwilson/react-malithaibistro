@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Desserts = () => {
   return (
@@ -7,7 +7,7 @@ const Desserts = () => {
       <div className="row">
         <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">Sweet Mango Sticky Rice</h2>
-          <p className="menu-item__price ">$7.00</p>
+          <p className="menu-item__price ">$8.00</p>
           <figure className="image">
             <img
               className="image-75 image-rounded centered-and-cropped"
@@ -19,17 +19,17 @@ const Desserts = () => {
         </div>
         <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">Coconut Ice Cream</h2>
-          <p className="menu-item__price ">$3.50</p>
+          <p className="menu-item__price ">$5.00</p>
           <h2 className="menu-item__title">Mango Ice Cream</h2>
-          <p className="menu-item__price ">$3.50</p>
+          <p className="menu-item__price ">$5.00</p>
           <h2 className="menu-item__title">Taro Ice Cream</h2>
-          <p className="menu-item__price ">$3.50</p>
+          <p className="menu-item__price ">$5.00</p>
           <h2 className="menu-item__title">Fried Banana With Ice Cream</h2>
-          <p className="menu-item__price ">$5.50</p>
+          <p className="menu-item__price ">$6.00</p>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Desserts;
+export default Desserts

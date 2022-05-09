@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Drinks = () => {
   return (
@@ -7,7 +7,7 @@ const Drinks = () => {
       <div className="row">
         <div className="col-12 col-md-6 menu-list__description">
           <h2 className="menu-item__title">Bubble Drinks</h2>
-          <p className="menu-item__price">$3.95</p>
+          <p className="menu-item__price">$4.99</p>
           <table className="table menu-item__description">
             <tbody>
               <tr>
@@ -39,29 +39,29 @@ const Drinks = () => {
             <tbody>
               <tr>
                 <td>Thai Iced Tea</td>
-                <td className="menu-item__price text-right">$3.25</td>
+                <td className="menu-item__price text-right">$4.50</td>
               </tr>
               <tr>
                 <td>Thai Iced Coffee</td>
-                <td className="menu-item__price text-right">$3.25</td>
+                <td className="menu-item__price text-right">$4.50</td>
               </tr>
               <tr>
                 <td>Hot Tea & Iced Tea</td>
-                <td className="menu-item__price text-right">$2.95</td>
+                <td className="menu-item__price text-right">$2.99</td>
               </tr>
               <tr>
                 <td>Hot Coffee</td>
-                <td className="menu-item__price text-right">$2.95</td>
+                <td className="menu-item__price text-right">$2.99</td>
               </tr>
             </tbody>
           </table>
 
           <h2 className="menu-item__title">Fountain Drinks</h2>
-          <p className="menu-item__price">$2.95</p>
+          <p className="menu-item__price">$2.99</p>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Drinks;
+export default Drinks

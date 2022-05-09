@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const HouseFavorites = () => {
   return (
@@ -51,11 +51,11 @@ const HouseFavorites = () => {
             />
           </figure>
           <p className="menu-item__caption">Laab Isaan</p>
-          <h2 className="menu-item__title">28. Papaya Salad</h2>
+          <h2 className="menu-item__title">Papaya Salad</h2>
           <p className="menu-item__price lunch-dinner">
             <span className="lunch">Lunch</span>/
             <span className="dinner">Dinner</span>
-            $10.95
+            $15.99
           </p>
 
           <p className="menu-item__description">
@@ -65,14 +65,14 @@ const HouseFavorites = () => {
           </p>
         </div>
         <div className="col-12 col-md-6 menu-list__description">
-          <h2 className="menu-item__title">30. Pad Thai</h2>
+          <h2 className="menu-item__title">Pad Thai</h2>
           <p className="menu-item__price lunch-dinner">
-            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
-            $12.95 Beef or Shrimp | $13.95 Seafood
+            <span className="lunch">Lunch</span> $12.99 Chicken, Pork, or Tofu |
+            $15.99 Beef or Shrimp | $17.99 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
-            | $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $14.99 Chicken, Pork, or Tofu
+            | $17.99 Beef or Shrimp | $19.99 Seafood
           </p>
 
           <p className="menu-item__description">
@@ -90,14 +90,13 @@ const HouseFavorites = () => {
           </figure>
           <p className="menu-item__caption">Pad Thai with Seafood</p>
 
-          <h2 className="menu-item__title">36. Panang Curry</h2>
+          <h2 className="menu-item__title">Panang Curry</h2>
           <p className="menu-item__price lunch-dinner">
-            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
-            $12.95 Beef or Shrimp | $13.95 Seafood
-          </p>
-          <p className="menu-item__price lunch-dinner">
-            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
-            | $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="lunch">Lunch</span>/
+            <span className="dinner">Dinner</span> With mix vegetables $13.99 |
+            With mix vegetables and tofu $14.99 | With mix vegetables, add
+            Chicken or Pork $17.99 | With mix vegetables, add Beef or Shrimp
+            $18.99 | With mix vegetables, add Seafood $22.99
           </p>
           <p className="menu-item__description">
             Our most popular curry. Our delicious coconut milk and peanut panang
@@ -114,9 +113,9 @@ const HouseFavorites = () => {
 
           <h2 className="menu-item__title">44. Mali Thai Catfish</h2>
           <p className="menu-item__price lunch-dinner">
-            <span className="lunch">Lunch</span> $13.95 |{" "}
+            <span className="lunch">Lunch</span> $15.99 |{' '}
             <span className="dinner">Dinner</span>
-            $18.95
+            $19.99
           </p>
           <p className="menu-item__description">
             Two crispy catfish fillets served over a bed of steamed vegetables
@@ -135,7 +134,7 @@ const HouseFavorites = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HouseFavorites;
+export default HouseFavorites

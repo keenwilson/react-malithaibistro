@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Noodles = () => {
   return (
@@ -6,14 +6,39 @@ const Noodles = () => {
       <h2 className="heading-title text-center underline-60">Noodles</h2>
       <div className="row">
         <div className="col-12 col-md-6 menu-list__description">
-          <h2 className="menu-item__title">31. Pad Sew Eaew</h2>
+          <h2 className="menu-item__title">Pad Thai</h2>
           <p className="menu-item__price lunch-dinner">
-            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
-            $12.95 Beef or Shrimp | $13.95 Seafood
+            <span className="lunch">Lunch</span> $12.99 Chicken, Pork, or Tofu |
+            $15.99 Beef or Shrimp | $17.99 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
-            | $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $14.99 Chicken, Pork, or Tofu
+            | $17.99 Beef or Shrimp | $19.99 Seafood
+          </p>
+
+          <p className="menu-item__description">
+            Famous rice noodle dish stir-fried with meat or TOFU, egg, bean
+            sprouts, spring onion and cabbages with added tamarind sauce for a
+            tangy after taste. Served with ground peanuts.
+          </p>
+
+          <figure className="image">
+            <img
+              className="image-75 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/FVJDGCXl.jpg"
+              alt="Mali Thai Bistro - Pad Thai"
+            />
+          </figure>
+          <p className="menu-item__caption">Pad Thai with Seafood</p>
+
+          <h2 className="menu-item__title">Pad Sew Eaew</h2>
+          <p className="menu-item__price lunch-dinner">
+            <span className="lunch">Lunch</span> $12.99 Chicken, Pork, or Tofu |
+            $15.99 Beef or Shrimp | $17.99 Seafood
+          </p>
+          <p className="menu-item__price lunch-dinner">
+            <span className="dinner">Dinner</span> $14.99 Chicken, Pork, or Tofu
+            | $17.99 Beef or Shrimp | $19.99 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried flat noodles in dark, rich and sweet soy sauce with
@@ -29,14 +54,14 @@ const Noodles = () => {
           </figure>
           <p className="menu-item__caption">Pad See Ew</p>
 
-          <h2 className="menu-item__title">32. Pad Key Maw</h2>
+          <h2 className="menu-item__title">Pad Key Maw</h2>
           <p className="menu-item__price lunch-dinner">
-            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
-            $12.95 Beef or Shrimp | $13.95 Seafood
+            <span className="lunch">Lunch</span> $12.99 Chicken, Pork, or Tofu |
+            $15.99 Beef or Shrimp | $17.99 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span className="dinner">Dinner</span> $11.95 Chicken, Pork, or Tofu
-            | $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $14.99 Chicken, Pork, or Tofu
+            | $17.99 Beef or Shrimp | $19.99 Seafood
           </p>
 
           <p className="menu-item__description">
@@ -45,15 +70,15 @@ const Noodles = () => {
           </p>
         </div>
         <div className="col-12 col-md-6 menu-list__description">
-          <h2 className="menu-item__title">33. Pad Woon Sen</h2>
+          <h2 className="menu-item__title">Pad Woon Sen</h2>
 
           <p className="menu-item__price lunch-dinner">
-            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
-            $12.95 Beef or Shrimp | $13.95 Seafood
+            <span className="lunch">Lunch</span> $12.99 Chicken, Pork, or Tofu |
+            $15.99 Beef or Shrimp | $17.99 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span className="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu
-            | $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $14.99 Chicken, Pork, or Tofu
+            | $17.99 Beef or Shrimp | $19.99 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried glass noodle with meats or tofu, bean sprouts, spring
@@ -67,10 +92,25 @@ const Noodles = () => {
             />
           </figure>
           <p className="menu-item__caption">Pad Woon Sen with Chicken</p>
+          <h2 className="menu-item__title">Rad Na Taley (House Favorite)</h2>
+          <p className="menu-item__price">$19.99</p>
+          <p className="menu-item__description">
+            Wide rice noodles with vegetables and seafood, stir-fried in a dark
+            soy sauce and covered with a thick, savory sauce. A favorite lunch
+            item in Thailand.
+          </p>
+          <figure className="image">
+            <img
+              className="image-75 image-rounded centered-and-cropped"
+              src="https://i.imgur.com/HNcIaXFl.jpg"
+              alt="Mali Thai Bistro - Rad Na Taley"
+            />
+          </figure>
+          <p className="menu-item__caption">Mee Krob Rad Na Taley</p>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Noodles;
+export default Noodles
