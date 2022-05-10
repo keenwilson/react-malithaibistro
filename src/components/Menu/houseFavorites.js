@@ -8,14 +8,14 @@ const HouseFavorites = () => {
       </h2>
       <div className="row">
         <div className="col-12 col-md-6 menu-list__description">
-          <h2 className="menu-item__title">13. Pad Ka Prao</h2>
+          <h2 className="menu-item__title">Pad Ka Prao</h2>
           <p className="menu-item__price lunch-dinner">
-            <span className="lunch">Lunch</span> $9.95 Chicken, Pork, or Tofu |
-            $12.95 Beef or Shrimp | $13.95 Seafood
+            <span className="lunch">Lunch</span> 12.99 Chicken, Pork, or Tofu |
+            $15.99 Beef or Shrimp | $17.99 Seafood
           </p>
           <p className="menu-item__price lunch-dinner">
-            <span className="dinner">Dinner</span> $13.95 Chicken, Pork, or Tofu
-            | $14.95 Beef or Shrimp | $18.95 Seafood
+            <span className="dinner">Dinner</span> $13.99 Chicken, Pork, or Tofu
+            | $17.99 Beef or Shrimp | $19.99 Seafood
           </p>
           <p className="menu-item__description">
             Stir-fried meat with sweet basil leaves, fresh chili and garlic.
@@ -31,11 +31,11 @@ const HouseFavorites = () => {
           </figure>
           <p className="menu-item__caption">Pad Ka Prao</p>
 
-          <h2 className="menu-item__title">26. Labb Isaan</h2>
+          <h2 className="menu-item__title">Labb Isaan</h2>
           <p className="menu-item__price lunch-dinner">
             <span className="lunch">Lunch</span>/
             <span className="dinner">Dinner</span>
-            $9.95 Chicken, Pork, or Tofu | $14.95 Beef or Shrimp | $18.95
+            $13.99 Chicken, Pork, or Tofu | $15.99 Beef or Shrimp | $19.99
             Seafood
           </p>
           <p className="menu-item__description">
@@ -111,7 +111,7 @@ const HouseFavorites = () => {
           </figure>
           <p className="menu-item__caption">Panang Curry with Tofu</p>
 
-          <h2 className="menu-item__title">44. Mali Thai Catfish</h2>
+          <h2 className="menu-item__title">Mali Thai Catfish</h2>
           <p className="menu-item__price lunch-dinner">
             <span className="lunch">Lunch</span> $15.99 |{' '}
             <span className="dinner">Dinner</span>
