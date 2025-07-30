@@ -28,15 +28,7 @@ const Header = () => {
                 Home <span className="sr-only">(current)</span>
               </NavLink>
             </li>
-            <li
-              className="nav-item"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-            >
-              <NavLink className="nav-link header-link" to="/menu/home">
-                Menu
-              </NavLink>
-            </li>
+
             <li
               className="nav-item"
               data-toggle="collapse"

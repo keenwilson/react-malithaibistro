@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact/index'
 import Header from './components/Header'
 import Home from './components/Home/index'
-import Menu from './components/Menu/index'
+
 import Wisdom from './components/Wisdom/index'
 import Community from './components/Community/index'
 import './App.less'
@@ -26,7 +26,7 @@ class App extends Component {
         <div className="hero-body">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/menu" component={Menu} />
+
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/wisdom" component={Wisdom} />

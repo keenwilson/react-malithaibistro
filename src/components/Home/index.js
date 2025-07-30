@@ -65,6 +65,24 @@ const Home = () => {
                 </a>
               </Button>
             </div>
+            
+            <h1 className="heading-title text-center underline-60">
+              Menu
+            </h1>
+            <p className="dine-in-take-out">
+              Explore our authentic Thai cuisine featuring dishes from various regions of Thailand.
+            </p>
+            <div className="mobile-welcome-options">
+              <Button className="mobile-option" size="large">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/MaliThaiBistro_MENU_2025.pdf"
+                >
+                  View Our Menu
+                </a>
+              </Button>
+            </div>
           </Content>
         </Layout>
       </div>
@@ -102,9 +120,14 @@ const Home = () => {
         <h1 className="heading-title underline-60">Menu</h1>
         <div className="mobile-welcome-options">
           <Button className="mobile-option" size="large">
-            <Link className="footer__link" to="/menu">
-              See Our Menu
-            </Link>
+            <a 
+              className="footer__link" 
+              href="/MaliThaiBistro_MENU_2025.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Our Menu
+            </a>
           </Button>
         </div>
       </div>
